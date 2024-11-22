@@ -1,0 +1,136 @@
+
+.hero {
+    background-image: url('images/istockphoto-1562494036-170667a.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 300px; 
+    color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn-primary {
+    padding: 0.75rem 2rem;
+    background: white;
+    color: #0066ff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.about {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #50afdb;
+    margin-bottom: 1rem;
+}
+
+.about h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    background-image: url('images/cropped-descarga-21.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 450px; 
+    color: #000000; 
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.skill {
+    background: #cedee6;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.skills h2{
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+/* Projects Section */
+.projects {
+    padding: 3rem 1rem;
+    background: #cedee6;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.project {
+    background: #a7a9af;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 3rem 1rem;
+    background: #50afdb;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.contact ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background: #0066ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
